@@ -11,12 +11,6 @@
       "nome": "Back End",
       "descricao": "Descrição da categoria back-end.",
       "cor": "#CBD1FF"
-    },
-    {
-      "id": 3,
-      "nome": "Full Stack",
-      "descricao": "Descrição da categoria full-stack.",
-      "cor": "#CBD1FF"
     }
   ]
 }
