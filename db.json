@@ -2,22 +2,42 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Front End",
-      "descricao": "Descrição da categoria front-end.",
-      "cor": "#0984e3",
+      "titulo": "Administração",
+      "descricao": "E-books sobre administração.",
+      "cor": "#27ae60",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "",
+        "url": ""
       }
     },
     {
       "id": 2,
-      "titulo": "Back End",
-      "descricao": "Descrição da categoria back-end.",
-      "cor": "#00b894",
+      "titulo": "Inteligência Emocional",
+      "descricao": "E-books sobre inteligência emocional.",
+      "cor": "#2980b9",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Programação",
+      "descricao": "E-books sobre programação.",
+      "cor": "#8e44ad",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Marketing",
+      "descricao": "E-books sobre marketing.",
+      "cor": "#d35400",
+      "link_extra": {
+        "text": "",
+        "url": ""
       }
     }
   ],
@@ -25,74 +45,44 @@
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "Cauda Longa",
+      "url": "https://www.youtube.com/watch?v=KWp_0w6fjDs"
     },
     {
       "id": 2,
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "Pipeline de Liderança",
+      "url": "https://www.youtube.com/watch?v=HMjxV5lGV5Y"
     },
     {
       "id": 3,
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "Satisfação Garantida",
+      "url": "https://www.youtube.com/watch?v=sMhQeIXKb30"
     },
     {
       "id": 4,
-      "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "categoriaId": 2,
+      "titulo": "Inteligência Emocional",
+      "url": "https://www.youtube.com/watch?v=PxT58dCSc98"
     },
     {
       "id": 5,
-      "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "categoriaId": 2,
+      "titulo": "Inteligência Multifocal",
+      "url": "https://www.youtube.com/watch?v=iXHVUMvGhIk"
     },
     {
       "id": 6,
-      "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+      "categoriaId": 3,
+      "titulo": "Código Limpo",
+      "url": "https://www.youtube.com/watch?v=1IHNc-_u7OI"
     },
     {
       "id": 7,
-      "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-    },
-    {
-      "id": 8,
-      "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-    },
-    {
-      "id": 9,
-      "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-    },
-    {
-      "id": 10,
-      "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-    },
-    {
-      "titulo": "Vídeo padrão",
-      "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
-      "categoriaId": 1,
-      "id": 11
-    },
-    {
-      "titulo": "Vídeo padrão",
-      "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
-      "categoriaId": 2,
-      "id": 12
+      "categoriaId": 4,
+      "titulo": "Marketing de Guerrilha",
+      "url": "https://www.youtube.com/watch?v=9w7meCdje3M"
     }
   ]
 }
