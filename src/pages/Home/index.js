@@ -1,52 +1,47 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import Menu from '../../components/Menu';
-import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
+import PageDefault from '../../components/PageDefault';
+import categoriasRepository from '../../repositories/categorias';
 
-const AppWrapper = styled.div`
-  background-color: var(--grayDark);
-`;
+//http://localhost:8080/categorias?_embed=videos
 
 function Home() {
+
+  const [dadosIniciais, setDadosIniciais] = useState([]);
+
+  useEffect(() => {
+    categoriasRepository.getAllWithVideos()
+    .then((categoriasComVideos) => {
+      setDadosIniciais(categoriasComVideos);
+    })
+    .catch((err) => {
+      //Aqui colocamos o estado, aparecer a tela do erro, mostrar erro ao usuário.
+      //Não recomendado deixar o console.
+      console.log(err.message)
+    });
+  }, []);
+
   return (
-    <AppWrapper>
-      <Menu />
-      <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Assassin's Creed Odyssey é um jogo eletrônico de RPG de ação desenvolvido pela Ubisoft Quebec e publicado pela Ubisoft. É o décimo primeiro título principal da série Assassin's Creed e foi lançado em 5 de outubro de 2018, para Microsoft Windows, PlayStation 4, Xbox One e Nintendo Switch."}
-      />
+    <PageDefault paddingAll={0}>
+      {dadosIniciais.length === 0 && (<div>Carregando...</div>)}
 
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[0]}
-      />
+      {dadosIniciais.length >= 1 && (
+        <>
+          <BannerMain
+          videoTitle={dadosIniciais[0].videos[0].titulo}
+          url={dadosIniciais[0].videos[0].url}
+          videoDescription={"Assassin's Creed Odyssey é um jogo eletrônico de RPG de ação desenvolvido pela Ubisoft Quebec e publicado pela Ubisoft. É o décimo primeiro título principal da série Assassin's Creed e foi lançado em 5 de outubro de 2018, para Microsoft Windows, PlayStation 4, Xbox One e Nintendo Switch."}
+          />
 
-      <Carousel
-        category={dadosIniciais.categorias[1]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[2]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[3]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[4]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[5]}
-      />      
-
-      <Footer/>  
-    </AppWrapper>
+          <Carousel
+            ignoreFirstVideo
+            category={dadosIniciais[0]}
+          />
+        </>
+      )}
+    </PageDefault>
   );
 }
 
