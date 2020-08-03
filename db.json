@@ -81,6 +81,12 @@
       "categoriaId": 2,
       "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
       "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+    },
+    {
+      "titulo": "Vídeo padrão",
+      "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
+      "categoriaId": 1,
+      "id": 11
     }
   ]
 }
