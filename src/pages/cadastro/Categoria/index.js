@@ -26,7 +26,7 @@ function CadastroCategoria() {
         ...response,
       ]);
     });
-  });
+  }, []);
 
   return (
     <PageDefault>
