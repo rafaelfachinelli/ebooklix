@@ -28,20 +28,31 @@ function Home() {
     <PageDefault paddingAll={0}>
       {dadosIniciais.length === 0 && (<div>Carregando...</div>)}
 
-      {dadosIniciais.length >= 1 && (
-        <>
-          <BannerMain
-          videoTitle={dadosIniciais[0].videos[0].titulo}
-          url={dadosIniciais[0].videos[0].url}
-          videoDescription={"Assassin's Creed Odyssey é um jogo eletrônico de RPG de ação desenvolvido pela Ubisoft Quebec e publicado pela Ubisoft. É o décimo primeiro título principal da série Assassin's Creed e foi lançado em 5 de outubro de 2018, para Microsoft Windows, PlayStation 4, Xbox One e Nintendo Switch."}
-          />
+      {dadosIniciais.map((categoria, indice) => {
+        if (indice === 0) {
+          return (
+            <div key={categoria.id}>
+              <BannerMain
+                videoTitle={dadosIniciais[0].videos[0].titulo}
+                url={dadosIniciais[0].videos[0].url}
+                videoDescription={"Assassin's Creed Odyssey é um jogo eletrônico de RPG de ação desenvolvido pela Ubisoft Quebec e publicado pela Ubisoft. É o décimo primeiro título principal da série Assassin's Creed e foi lançado em 5 de outubro de 2018, para Microsoft Windows, PlayStation 4, Xbox One e Nintendo Switch."}
+              />
 
+              <Carousel
+                ignoreFirstVideo
+                category={dadosIniciais[0]}
+              />
+            </div>
+          );
+        }
+
+        return (
           <Carousel
-            ignoreFirstVideo
-            category={dadosIniciais[0]}
+            key={categoria.id}
+            category={categoria}
           />
-        </>
-      )}
+        );
+      })}
     </PageDefault>
   );
 }
