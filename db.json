@@ -87,6 +87,12 @@
       "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
       "categoriaId": 1,
       "id": 11
+    },
+    {
+      "titulo": "Vídeo padrão",
+      "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
+      "categoriaId": 2,
+      "id": 12
     }
   ]
 }
