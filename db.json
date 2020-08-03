@@ -4,7 +4,7 @@
       "id": 1,
       "titulo": "Front End",
       "descricao": "Descrição da categoria front-end.",
-      "cor": "#CBD1FF",
+      "cor": "#0984e3",
       "link_extra": {
         "text": "Formação de Front End na Alura",
         "url": "https://www.alura.com.br/cursos-online-front-end"
@@ -14,7 +14,7 @@
       "id": 2,
       "titulo": "Back End",
       "descricao": "Descrição da categoria back-end.",
-      "cor": "#CBD1FF",
+      "cor": "#00b894",
       "link_extra": {
         "text": "Cursos de Back End na Alura",
         "url": "https://www.alura.com.br/cursos-online-programacao"
