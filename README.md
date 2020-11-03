@@ -156,41 +156,6 @@ $ yarn dev
 
 > ⚠️ O Banco de Dados fica salvo em [`server/src/database/database.sqlite`](server/src/database/database.sqlite)
 
-### :iphone: **Aplicativo**
-
-Entre na pasta [`mobile/`](mobile/) e execute os seguintes comandos:
-
-<details>
-<summary><i>com <b>npm</b></i></summary>
-
-```bash
-# Instalar dependências
-$ npm install
-
-# Iniciar servidor de desenvolvimento
-$ npm start
-```
-
-</details>
-
-<details>
-<summary><i>com <b>yarn</b></i></summary>
-
-```bash
-# Instalar dependências
-$ yarn
-
-# Iniciar servidor de desenvolvimento
-$ yarn start
-
-```
-
-</details>
-
-> ⚠️ O expo para desenvolvimento iniciará na porta:19002 - Acesse <http://localhost:19002>
-
-> ⚠️ No arquivo **api.ts** dentro da pasta [`mobile/src/services/`](mobile/src/services/) é necessário colocar o seu IP local na variável baseURL, mantendo a porta 3333 do servidor.
-
 ---
 ## :hammer: **Tecnologias**
 
@@ -198,9 +163,9 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 
 <div align="center">
 
-|WEB Responsivo|Servidor|Aplicativo|
-|:---:|:---:|:---:|
-||||
+|WEB Responsivo|Servidor|
+|:---:|:---:|
+|||
 
 </div>
 
