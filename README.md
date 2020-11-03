@@ -27,7 +27,7 @@
 ---
 ## :computer: Sobre
 
-📗 Sistema com interface inspirada no Netflix utilizando React e NodeJS para organizar meus ebooks.
+Plataforma com interface inspirada no Netflix utilizando React e NodeJS para organizar meus ebooks.
 
 Projeto desenvolvido durante a **Imersão React** oferecida pela [Alura](https://www.alura.com.br).
 A imersão é uma experiência online com muito conteúdo prático e desafios com duração de uma semana para conclusão.
