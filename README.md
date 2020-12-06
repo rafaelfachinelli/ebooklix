@@ -165,7 +165,7 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 
 |WEB Responsivo|Servidor|
 |:---:|:---:|
-|||
+|React|Node.js|
 
 </div>
 
