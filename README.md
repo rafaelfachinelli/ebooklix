@@ -14,14 +14,29 @@
 <p>
 
 <p align="center">
+ <a href="#movie_camera-demonstração">Demonstração</a> •
  <a href="#computer-sobre">Sobre</a> •
  <a href="#memo-roteiro">Roteiro</a> •
  <a href="#triangular_ruler-status-do-projeto">Status</a> •
- <a href="#movie_camera-demonstração">Demonstração</a> •
  <a href="#dvd-executar-o-projeto">Executar</a> •
  <a href="#hammer-tecnologias">Tecnologias</a> •
  <a href="#boy-autor">Autor</a> •
  <a href="#page_facing_up-licença">Licença</a>
+</p>
+
+---
+## :movie_camera: **Demonstração**
+
+https://ebooklix.vercel.app
+
+https://ebooklix.herokuapp.com
+
+<p align="center"><b> :computer: PLATAFORMA WEB </b></p>
+
+<p align="center">
+  <kbd>
+    <img style="border-radius: 5px" width="450px" height="250px" alt="Demonstração do Aplicativo Ebooklix" src="./.github/demo-desk-ebooklix.gif">
+  </kbd> 
 </p>
 
 ---
@@ -64,21 +79,6 @@ A imersão é uma experiência online com muito conteúdo prático e desafios co
 <h4 align="center"> 
 	👶 Finalizado.
 </h4>
-
----
-## :movie_camera: **Demonstração**
-
-https://ebooklix.vercel.app
-
-https://ebooklix.herokuapp.com
-
-<p align="center"><b> :computer: PLATAFORMA WEB </b></p>
-
-<p align="center">
-  <kbd>
-    <img style="border-radius: 5px" width="450px" height="250px" alt="Demonstração do Aplicativo Ebooklix" src="./.github/demo-desk-ebooklix.gif">
-  </kbd> 
-</p>
 
 ---
 ## :dvd: **Executar o Projeto**
