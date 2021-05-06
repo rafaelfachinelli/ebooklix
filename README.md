@@ -16,7 +16,6 @@
 <p align="center">
  <a href="#movie_camera-demonstração">Demonstração</a> •
  <a href="#computer-sobre">Sobre</a> •
- <a href="#memo-roteiro">Roteiro</a> •
  <a href="#triangular_ruler-status-do-projeto">Status</a> •
  <a href="#dvd-executar-o-projeto">Executar</a> •
  <a href="#hammer-tecnologias">Tecnologias</a> •
@@ -46,32 +45,6 @@ Plataforma com interface inspirada no Netflix utilizando React e NodeJS para org
 
 Projeto desenvolvido durante a **Imersão React** oferecida pela [Alura](https://www.alura.com.br).
 A imersão é uma experiência online com muito conteúdo prático e desafios com duração de uma semana para conclusão.
-
----
-## :memo: **Roteiro**
-
-<div align="center">
-<details>
-<summary>Clique para Visualizar</summary>
-	
-<details>
-<summary>WEB Responsivo</summary>
-
-|      Estado      |     Tarefa    |
-|      :---:       |      :---     |
-|||
-
-</details>
-
-<details>
-<summary>Servidor</summary>
-
-|      Estado      |     Tarefa    |
-|      :---:       |      :---     |
-|||
-
-</details>
-</div>
 
 ---
 ## :triangular_ruler: **Status do Projeto**
