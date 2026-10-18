@@ -1,161 +1,114 @@
-<div align="center">
+<p align="center">
+  <img alt="Ebooklix" src=".github/banner.svg" width="400px"/>
+</p>
 
-<img alt="Ebooklix" src=".github/banner.png">
-
-</div>
-
-<p align="center"> 
-  <img alt="Tamanho do Repositório" src="https://img.shields.io/github/repo-size/rafaelfachinelli/ebooklix?style=for-the-badge&color=15D6D6">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/ebooklix?style=for-the-badge&color=15D6D6">
-  <a href="https://github.com/rafaelfachinelli">
-    <img alt="Feito por Rafael Fachinelli" src="https://img.shields.io/badge/feito%20por-Rafael Fachinelli-%15B6D6?style=for-the-badge&color=15D6D6">
+<p align="center">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/ebooklix?color=3498db&style=for-the-badge">
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/ebooklix?color=3498db&style=for-the-badge">
+  <a href="https://rafaelfachinelli.com">
+    <img alt="Developed by Rafael Fachinelli" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-3498db?style=for-the-badge">
   </a>
-  <img alt="Licença" src="https://img.shields.io/github/license/rafaelfachinelli/ebooklix?style=for-the-badge&color=15D6D6"/>
-<p>
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-3498db?style=for-the-badge">
+</p>
 
 <p align="center">
- <a href="#movie_camera-demonstração">Demonstração</a> •
- <a href="#computer-sobre">Sobre</a> •
- <a href="#triangular_ruler-status-do-projeto">Status</a> •
- <a href="#dvd-executar-o-projeto">Executar</a> •
- <a href="#hammer-tecnologias">Tecnologias</a> •
- <a href="#boy-autor">Autor</a> •
- <a href="#page_facing_up-licença">Licença</a>
+  <a href="https://ebooklix.vercel.app">Live demo</a>
+</p>
+
+<p align="center">
+  <a href="#information_source-about">About</a> •
+  <a href="#memo-tasks">Tasks</a> •
+  <a href="#arrow_forward-run">Run</a> •
+  <a href="#hammer_and_wrench-technologies">Technologies</a> •
+  <a href="#boy-author">Author</a> •
+  <a href="#balance_scale-license">License</a>
 </p>
 
 ---
-## :movie_camera: **Demonstração**
 
-https://ebooklix.vercel.app
+## :information_source: About
 
-https://ebooklix.herokuapp.com
+📗 A platform with a Netflix-inspired interface to organize my e-books by category: a highlighted banner with a video, carousels per category and forms to register new categories and items. The data is served by a JSON Server API.
 
-<p align="center"><b> :computer: PLATAFORMA WEB </b></p>
-
-<p align="center">
-  <kbd>
-    <img style="border-radius: 5px" width="450px" height="250px" alt="Demonstração do Aplicativo Ebooklix" src="./.github/demo-desk-ebooklix.gif">
-  </kbd> 
-</p>
+Built in 2020 during the React Immersion by [Alura](https://www.alura.com.br), a one-week online event with practical challenges.
 
 ---
-## :computer: Sobre
 
-Plataforma com interface inspirada no Netflix utilizando React e NodeJS para organizar meus ebooks.
+## :memo: Tasks
 
-Projeto desenvolvido durante a **Imersão React** oferecida pela [Alura](https://www.alura.com.br).
-A imersão é uma experiência online com muito conteúdo prático e desafios com duração de uma semana para conclusão.
+<div align="center">
+<details>
+<summary>Click to view</summary>
+
+|State|Task|
+|:---:|:---|
+|:heavy_check_mark:|Home with a main banner and an embedded video|
+|:heavy_check_mark:|Carousels per category with React Slick|
+|:heavy_check_mark:|Menu and footer|
+|:heavy_check_mark:|Category registration page|
+|:heavy_check_mark:|Item registration page|
+|:heavy_check_mark:|Custom useForm hook|
+|:heavy_check_mark:|Repositories that call the JSON Server API|
+|:heavy_check_mark:|Deploy|
+
+</details>
+</div>
 
 ---
-## :triangular_ruler: **Status do Projeto**
 
-<h4 align="center"> 
-	👶 Finalizado.
-</h4>
+## :arrow_forward: Run
+
+You need [Node.js](https://nodejs.org/). In the project folder:
+
+```bash
+# Install dependencies
+npm install
+
+# Start the app and the JSON Server API together
+npm run dev
+```
+
+> The app opens at <http://localhost:3000> and the API runs from `server.js` with the data in `db.json`.
 
 ---
-## :dvd: **Executar o Projeto**
 
-### :desktop_computer: **WEB Responsivo**
-
-Entre na pasta [`web/`](web/) e execute os seguintes comandos:
-
-<details>
-<summary><i>com <b>npm</b></i></summary>
-
-```bash
-# Instalar dependências
-$ npm install
-
-# Iniciar servidor de desenvolvimento
-$ npm start
-```
-
-</details>
-
-<details>
-<summary><i>com <b>yarn</b></i></summary>
-
-```bash
-# Instalar dependências
-$ yarn
-
-# Iniciar servidor de desenvolvimento
-$ yarn start
-
-```
-
-</details>
-
-> ⚠️ O servidor de desenvolvimento iniciará na porta:3000 - Acesse <http://localhost:3000>
-
-### :globe_with_meridians: **Servidor**
-
-Entre na pasta [`server/`](server/) e execute os seguintes comandos:
-
-<details>
-<summary><i>com <b>npm</b></i></summary>
-
-```bash
-# Instalar dependências
-$ npm install
-
-# Criar banco de dados
-$ npm typeorm migration:run
-
-# Iniciar servidor
-$ npm dev
-```
-
-</details>
-
-<details>
-<summary><i>com <b>yarn</b></i></summary>
-
-```bash
-# Instalar dependências
-$ yarn
-
-# Criar banco de dados
-$ yarn typeorm migration:run
-
-# Iniciar servidor de desenvolvimento
-$ yarn dev
-```
-
-</details>
-
-> ⚠️ O servidor iniciará na porta:3333 - Acesse <http://localhost:3333>
-
-> ⚠️ O Banco de Dados fica salvo em [`server/src/database/database.sqlite`](server/src/database/database.sqlite)
-
----
-## :hammer: **Tecnologias**
-
-As seguintes ferramentas foram utilizadas na construção do projeto:
+## :hammer_and_wrench: Technologies
 
 <div align="center">
 
-|WEB Responsivo|Servidor|
+|Web|Server|
 |:---:|:---:|
-|React|Node.js|
+|[React](https://react.dev/)|[Node.js](https://nodejs.org/)|
+|[React Router](https://reactrouter.com/)|[JSON Server](https://github.com/typicode/json-server)|
+|[styled-components](https://styled-components.com/)||
+|[React Slick](https://react-slick.neostack.com/)||
+|[ESLint (Airbnb)](https://github.com/airbnb/javascript)||
 
 </div>
 
 ---
-## :boy: **Autor**
+
+## :boy: Author
 
 <div align="center">
-  
-[![Author](https://github.com/rafaelfachinelli/rafaelfachinelli/blob/master/.github/author.svg)](https://www.linkedin.com/in/rafaelfachinelli/)
+
+<a href="https://rafaelfachinelli.com">
+  <img src="https://github.com/rafaelfachinelli.png" width="100px" alt="Rafael Fachinelli"/>
+  <br/>
+  <sub><b>Rafael Fachinelli</b></sub>
+</a>
+
+Tech Lead and software engineer. Get in touch!
+
+[![Portfolio](https://img.shields.io/badge/-rafaelfachinelli.com-3498db?style=flat-square&logo=googlechrome&logoColor=white)](https://rafaelfachinelli.com)
+[![LinkedIn](https://img.shields.io/badge/-Rafael_Fachinelli-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelfachinelli/)
+[![GitHub](https://img.shields.io/badge/-rafaelfachinelli-000?style=flat-square&logo=github&logoColor=white)](https://github.com/rafaelfachinelli)
+[![E-mail](https://img.shields.io/badge/-rafael.l.a.fachinelli@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:rafael.l.a.fachinelli@gmail.com)
 
 </div>
 
 ---
-## :page_facing_up: **Licença**
 
-<div align="center">
-  
-[![License](https://github.com/rafaelfachinelli/rafaelfachinelli/blob/master/.github/license.svg)](./LICENSE)
+## :balance_scale: License
 
-</div>
+This project is under the [MIT license](./LICENSE).
